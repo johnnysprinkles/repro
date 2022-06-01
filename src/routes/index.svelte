@@ -4,6 +4,7 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
+	import Star from 'whatever/doesnt/matter/star.svg';
 </script>
 
 <svelte:head>
@@ -21,6 +22,7 @@
 		</div>
 
 		to your new<br />SvelteKit app
+		<Star /> <Star --star-color="blue" /> <Star />
 	</h1>
 
 	<h2>

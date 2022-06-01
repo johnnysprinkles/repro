@@ -14,6 +14,10 @@
 	export const prerender = true;
 </script>
 
+<script>
+	import Star from 'whatever/doesnt/matter/star.svg';
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
@@ -21,6 +25,10 @@
 
 <div class="content">
 	<h1>About this app</h1>
+
+	<div class="star-container">
+		<Star /> <Star /> <Star />
+	</div>
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
